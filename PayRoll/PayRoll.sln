@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRoll.DataAccess", "PayRoll.DataAccess\PayRoll.DataAccess.csproj", "{46D5855F-0EA1-454E-984B-971FB58EA57A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRoll.WebApplication", "PayRoll.WebApplication\PayRoll.WebApplication.csproj", "{117ABC2D-04AD-4AC6-B510-B9FA372D3741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRoll.Common", "PayRoll.Common\PayRoll.Common.csproj", "{1DDEEDA9-B030-4D25-94CE-17568C3D0FEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRoll.BusinessLogic", "PayRoll.BusinessLogic\PayRoll.BusinessLogic.csproj", "{0A2078D6-A7F0-4083-9250-EA5B94347773}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46D5855F-0EA1-454E-984B-971FB58EA57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D5855F-0EA1-454E-984B-971FB58EA57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D5855F-0EA1-454E-984B-971FB58EA57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D5855F-0EA1-454E-984B-971FB58EA57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117ABC2D-04AD-4AC6-B510-B9FA372D3741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117ABC2D-04AD-4AC6-B510-B9FA372D3741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117ABC2D-04AD-4AC6-B510-B9FA372D3741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117ABC2D-04AD-4AC6-B510-B9FA372D3741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDEEDA9-B030-4D25-94CE-17568C3D0FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDEEDA9-B030-4D25-94CE-17568C3D0FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDEEDA9-B030-4D25-94CE-17568C3D0FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDEEDA9-B030-4D25-94CE-17568C3D0FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2078D6-A7F0-4083-9250-EA5B94347773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2078D6-A7F0-4083-9250-EA5B94347773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2078D6-A7F0-4083-9250-EA5B94347773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2078D6-A7F0-4083-9250-EA5B94347773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
