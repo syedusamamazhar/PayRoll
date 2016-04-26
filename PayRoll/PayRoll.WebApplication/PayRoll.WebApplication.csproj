@@ -159,6 +159,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -191,6 +192,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Services\Demo\Index.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -228,6 +230,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Demo\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -247,6 +250,10 @@
     <ProjectReference Include="..\PayRoll.Common\PayRoll.Common.csproj">
       <Project>{1ddeeda9-b030-4d25-94ce-17568c3d0feb}</Project>
       <Name>PayRoll.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PayRoll.Model\PayRoll.Model.csproj">
+      <Project>{56a18ac4-cd64-4d78-898c-747c885f3d1f}</Project>
+      <Name>PayRoll.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
